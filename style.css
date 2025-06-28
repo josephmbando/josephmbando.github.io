@@ -2,34 +2,56 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #333;
 }
+
 header {
-  background-color: #1f2937;
+  background-color: #2563eb; /* Blue */
   color: #fff;
   padding: 2rem;
   text-align: center;
+  position: relative;
 }
+
 header h1 {
   margin: 0;
 }
+
 nav {
   margin-top: 1rem;
 }
+
 nav a {
   color: #fff;
   margin: 0 1rem;
   text-decoration: none;
 }
+
+.logo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
 .container {
   max-width: 960px;
   margin: 2rem auto;
   padding: 0 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
 }
+
 section {
   margin-bottom: 3rem;
 }
+
 .project {
   background: #fff;
   padding: 1rem;
@@ -37,12 +59,14 @@ section {
   margin-bottom: 1rem;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
 footer {
   background-color: #1f2937;
   color: #fff;
   text-align: center;
   padding: 1rem;
 }
+
 .btn {
   display: inline-block;
   background-color: #3b82f6;
